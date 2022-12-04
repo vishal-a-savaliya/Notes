@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: Adocs
-  text: Static docs template built with VitePress.
+  name: VS docs
+  text: Learnings and Notes of VS with code.
   image:
     src: /logo_big.svg
     alt: Adocs logo

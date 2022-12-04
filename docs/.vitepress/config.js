@@ -3,45 +3,55 @@ export default {
     description: 'docs built by VS Leitan',
     themeConfig: {
         logo: "/logo.svg",
-        siteTitle: "VS docs",
+        siteTitle: "VS Notes",
         nav: [
             { text: "About", link: "/about" },
             { text: "Contact", link: "/contact" },
-            { text: "Guide", link: "/guide" },
-            { text: "Configs", link: "/configs" },
-            { text: "Changelog", link: "https://github.com/..." },
+            // { text: "Guide", link: "/guide" },
+            // { text: "Configs", link: "/configs" },
+            // { text: "Changelog", link: "https://github.com/..." },
+            {
+                text: "Notes",
+                items: [
+                    { text: "DBMS", link: "/DBMS" },
+                    { text: "JS", link: "/js" },
+                    { text: "Git & Github", link: "/git_github" },
+                ],
+            },
         ],
         socialLinks: [
-            { icon: "github", link: "https://github.com/Evavic44/adocs" },
-            { icon: "twitter", link: "https://twitter.com/victorekea" },
+            { icon: "github", link: "https://github.com/vishal-a-savaliya" },
+            { icon: "twitter", link: "https://twitter.com/vsleitan" },
+            { icon: "linkedin", link: "..." },
+            { icon: "instagram", link: "..." },
             { icon: "discord", link: "..." },
         ],
         footer: {
-            message: "Released under the MIT License.",
-            copyright: "Copyright © 2022-present Adocs",
+            message: "Build With ❤ and 🥤",
+            copyright: "@vsleitan",
         },
         sidebar: [
             {
-                text: "Section A",
+                text: "DMBS",
                 collapsible: true,
                 items: [
-                    { text: "Introduction", link: "/introduction" },
+                    { text: "Introduction", link: "/dbms" },
                     { text: "Getting Started", link: "/getting-started" },
                 ],
             },
             {
-                text: "Section B",
-                collapsible: false,
+                text: "JS",
+                collapsible: true,
                 items: [
-                    { text: "Introduction", link: "/introduction" },
+                    { text: "Introduction", link: "/js" },
                     { text: "Getting Started", link: "/getting-started" },
                 ],
             },
             {
-                text: "Section C",
+                text: "Git & Github",
                 collapsible: true,
                 items: [
-                    { text: "Introduction", link: "/introduction" },
+                    { text: "Introduction", link: "/git_github" },
                     { text: "Getting Started", link: "/getting-started" },
                 ],
             },
